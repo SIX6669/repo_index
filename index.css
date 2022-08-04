@@ -158,6 +158,13 @@ legend{
         align-content: space-around;
         grid-row-gap: 5px;
     }
+
+    .aceite_img:hover{
+        transform: scale(1.5,1.5);
+        transition: 2s;
+
+    }
+
     
     #productos_lista{
         height: 1500px;
@@ -183,14 +190,19 @@ legend{
     }
 
     #galeria{
-        height: auto;
+        height: 600px;
         display: grid;
         grid-template-columns: 35% 30% 35%;
         grid-template-rows: 50% 50% ;
         grid-template-areas: "a1 a2 a3"
                              "a4 a5 a6";
-        justify-content: center;
-        align-content: center;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .img_gal:hover{
+        transform: scale(1.5,1.5);
+        transition: 2s;
     }
 
     #imagen_gal_1{
