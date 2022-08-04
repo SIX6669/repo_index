@@ -12,6 +12,7 @@ fieldset{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-image: linear-gradient(to top, red,yellow);
 
 }
 
