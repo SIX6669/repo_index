@@ -81,6 +81,16 @@ body{
     background-color: yellow;
 }
 
+#carouselExampleControls{
+    height: 500px;
+    width: 500px;
+}
+
+#comentario{
+    align-content:center;
+    justify-content: center;
+}
+
 #legend_productos{
     font-weight: 700;
     background-color: beige;
