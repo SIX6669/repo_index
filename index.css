@@ -5,7 +5,7 @@
 
 fieldset{
     background-color: red;
-    border: 2px dashed black;
+    border: 2px  black;
 }
 
 #field{
@@ -240,7 +240,7 @@ legend{
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     #header{
         height: 150px;
 
