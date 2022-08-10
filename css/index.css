@@ -1,0 +1,201 @@
+* {
+  margin: auto; }
+
+fieldset {
+  background-color: red;
+  border: 2px  black; }
+
+#field {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, red, yellow); }
+
+header {
+  height: 300px; }
+
+#img_estacion {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic; }
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic; }
+
+h3 {
+  text-align: center;
+  font-style: oblique; }
+
+p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+body {
+  background-image: url(../img/Logo-Shell3.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: yellow;
+  background-size: contain;
+  background-attachment: fixed; }
+
+#img_robo {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+#foto_1 {
+  height: 100%; }
+
+#foto_2 {
+  height: 100%; }
+
+#body_productos {
+  background-color: yellow; }
+
+#carouselExampleControls {
+  height: 500px;
+  width: 500px; }
+
+#comentario {
+  align-content: center;
+  justify-content: center; }
+
+#legend_productos {
+  font-weight: 700;
+  background-color: beige; }
+
+table {
+  display: flex;
+  align-items: center; }
+
+th {
+  font-weight: 700;
+  font-size: large; }
+
+td {
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+#productos_lista {
+  background-image: url(../img/Logo-Shell3.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: red;
+  background-size: contain; }
+
+#titulo_aceite {
+  text-align: left; }
+
+#papa_aceites {
+  display: grid;
+  grid-template-areas: "a1" "a1" "a1" "a2" "a2" "a2";
+  justify-content: space-around; }
+
+#p_aceite {
+  text-align: left; }
+
+#aceite_img_1 {
+  height: 225px; }
+
+#imagen_gal {
+  margin: 2px; }
+
+#comentario {
+  display: flex;
+  align-items: center; }
+
+legend {
+  font-weight: 900; }
+
+@media only screen and (min-width: 600px) {
+  #img_robo {
+    height: 550;
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid: template rows 100%;
+    margin: 5px;
+    justify-content: space-evenly;
+    align-content: space-around;
+    grid-row-gap: 5px; }
+  .aceite_img:hover {
+    transform: scale(1.5, 1.5);
+    transition: 2s; }
+  #productos_lista {
+    height: 1500px; }
+  #precio_comb {
+    justify-content: center;
+    align-content: center; }
+  #papa_aceites {
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px;
+    justify-content: space-around; }
+  #aceite_img_1 {
+    width: 250px; }
+  #galeria {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "a1 a2 a3" "a4 a5 a6";
+    justify-content: space-evenly;
+    align-content: space-around; }
+  .img_gal:hover {
+    transform: scale(1.5, 1.5);
+    transition: 2s; }
+  #imagen_gal_1 {
+    grid-area: a1; }
+  #imagen_gal_2 {
+    grid-area: a2; }
+  #imagen_gal_3 {
+    grid-area: a3; }
+  #imagen_gal_4 {
+    grid-area: a4;
+    height: 200px; }
+  #imagen_gal_5 {
+    grid-area: a5 b; }
+  #contc_btn {
+    justify-items: center;
+    align-items: center; } }
+
+@media only screen and (max-width: 600px) {
+  #header {
+    height: 150px; }
+  #buscar {
+    width: 100px; }
+  #img_robo {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "a1"  "a2"; }
+  #foto_1 {
+    width: 200px;
+    height: 200px;
+    grid-area: a1; }
+  #foto_2 {
+    width: 200px;
+    height: 200px;
+    grid-area: a2; }
+  #carouselExampleControls {
+    width: 300px;
+    height: 300px; }
+  #galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-content: center; } }
