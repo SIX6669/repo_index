@@ -1,65 +1,12 @@
 
-*{
-    margin: auto;
-}
+@import "variables";
+@import "generales";
 
-fieldset{
-    background-color: red;
-    border: 2px  black;
-}
-
-#field{
+#field{ 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-image: linear-gradient(to top, red,yellow);
-
-}
-
-header{
-    height: 300px;
-}
-
-#img_estacion{
-   width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-h1{
-    color: black;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-style: italic;
-}
-
-h2{
-    text-align: center;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-}
-
-h3{
-    text-align: center;
-    font-style: oblique;
-}
-
-p{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-
-body{
-    background-image: url(../img/Logo-Shell3.jpg); 
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y:center ;
-    background-color: yellow;
-    background-size: contain;
-    background-attachment: fixed;
 }
 
 #img_robo{
@@ -97,21 +44,6 @@ body{
     background-color: beige;
 }
 
-table{
-    display: flex;
-    align-items: center;
-}
-
-th{
-    font-weight: 700;
-    font-size: large;
-}
-
-td{
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 #productos_lista{
     background-image: url(../img/Logo-Shell3.jpg); 
     background-repeat: no-repeat;
@@ -143,7 +75,6 @@ td{
     height:225px;
 }
 
-
 #imagen_gal{
     margin: 2px;
 
@@ -152,10 +83,6 @@ td{
 #comentario{
     display: flex;
     align-items: center;
-}
-
-legend{
-    font-weight: 900;
 }
 
 @media only screen and (min-width: 600px){
