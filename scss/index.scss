@@ -96,6 +96,15 @@
         align-content: space-around;
         grid-row-gap: 5px;
     }
+    
+    @mixin estilo_img($altura_img, $ancho_img) {
+        height: $altura_img;
+        width: $ancho_img;
+    }
+
+    .img{
+       @include estilo_img(170px,300px )
+    }
 
     .aceite_img:hover{
         transform: scale(1.5,1.5);

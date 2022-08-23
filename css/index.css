@@ -119,6 +119,9 @@ body {
     justify-content: space-evenly;
     align-content: space-around;
     grid-row-gap: 5px; }
+  .img {
+    height: 170px;
+    width: 300px; }
   .aceite_img:hover {
     transform: scale(1.5, 1.5);
     transition: 2s; }
