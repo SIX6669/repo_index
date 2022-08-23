@@ -106,10 +106,23 @@
        @include estilo_img(170px,300px )
     }
 
+    .img__gal{
+        @extend .img
+    }
+
+    .img__aceite{
+        @extend .img
+    }
+
     .aceite_img:hover{
         transform: scale(1.5,1.5);
         transition: 2s;
 
+    }
+
+    .img__gal:hover{
+        transform: scale(1.5,1.5);
+        transition: 2s;
     }
 
     
@@ -145,11 +158,6 @@
                              "a4 a5 a6";
         justify-content: space-evenly;
         align-content: space-around;
-    }
-
-    .img_gal:hover{
-        transform: scale(1.5,1.5);
-        transition: 2s;
     }
 
     #imagen_gal_1{
