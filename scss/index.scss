@@ -45,7 +45,8 @@
 }
 
 #productos_lista{
-    background-image: url(../img/Logo-Shell3.jpg); 
+    background-image:linear-gradient(to bottom, hsl(0, 100%, 50%, 0.65), hsl(60, 100%, 50%, 0.65)) 
+                     url(../img/Logo-Shell3.jpg); 
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:center ;

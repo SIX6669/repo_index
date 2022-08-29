@@ -2,7 +2,8 @@
   margin: auto; }
 
 body {
-  background-image: url(../img/Logo-Shell3.jpg);
+  background-image:linear-gradient(to bottom, hsl(60, 100%, 50%, 0.65), hsla(14, 92%, 50%, 0.966)),
+                    url(../img/Logo-Shell3.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -10,7 +11,6 @@ body {
   background-size: contain;
   background-attachment: fixed; }
   body fieldset {
-    background-color: red;
     border: 2px  black; }
   body header {
     height: 300px; }
@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: linear-gradient(to top, red, yellow); }
+  background-image: linear-gradient(to bottom, red, yellow); }
 
 #img_robo {
   display: flex;
@@ -86,7 +86,8 @@ body {
   background-color: beige; }
 
 #productos_lista {
-  background-image: url(../img/Logo-Shell3.jpg);
+  background-image: linear-gradient(to bottom, hsl(0, 100%, 50%, 0.65), hsl(60, 100%, 50%, 0.65)),
+                    url(../img/Logo-Shell3.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
